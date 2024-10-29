@@ -35,8 +35,6 @@
 - **Giao diện máy tính cơ bản:**
 
 ## 🔗 (https://ductd2003.github.io/compound-interest/)
-Bạn có thể xem trực tiếp ứng dụng trên GitHub Pages:  
-👉 [Demo tại đây](#)
 
 ## 📄 Giấy Phép
 Dự án này được phát hành dưới **MIT License**. Bạn có thể tự do sử dụng và sửa đổi.
