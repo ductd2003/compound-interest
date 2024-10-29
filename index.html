@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Toán Lãi Ngân Hàng</title>
+    <!-- Thêm liên kết Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Thêm liên kết Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4"><i class="fas fa-money-bill-wave"></i> Tính Toán Lãi Ngân Hàng</h1>
+        <form id="interest-form">
+            <div class="form-group">
+                <label for="principal">Số Tiền Gốc:</label>
+                <input type="text" id="principal" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="rate">Lãi Suất (%):</label>
+                <input type="text" id="rate" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Thời Gian (năm):</label>
+                <input type="text" id="time" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="annual-contribution">Số Tiền Gửi Mỗi Năm:</label>
+                <input type="text" id="annual-contribution" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Tính Toán</button>
+        </form>
+        <div id="result" class="mt-4 text-center"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

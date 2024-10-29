@@ -1,0 +1,13 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #007bff;
+}
+
+#result {
+    font-size: 1.5em;
+    color: #28a745;
+    font-weight: bold;
+}
